@@ -92,7 +92,7 @@ struct tower_projectile {
     }
 };
 
-typedef struct tower {
+struct tower {
     //instance variables
     int x;
     int y;
