@@ -699,7 +699,7 @@ typedef struct tower {
         direction = 0;
     };
     #pragma endregion
-} tower_data;
+};
 
 tower place_a_tower(int &money, tower_type type, int _index, int wave) {
     tower new_tower = tower();
